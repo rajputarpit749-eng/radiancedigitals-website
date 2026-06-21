@@ -1286,3 +1286,33 @@ grid-template-columns:1fr;
 }
 ```
 
+
+/* ===========================
+   Testimonial Video
+=========================== */
+
+.testimonial-video{
+
+    width:100%;
+    display:block;
+
+    border-radius:20px;
+
+    background:#000;
+
+    border:1px solid #24324d;
+
+    object-fit:cover;
+
+    transition:.3s;
+
+}
+
+.testimonial-video:hover{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 35px rgba(37,99,235,.25);
+
+}
+
