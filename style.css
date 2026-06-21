@@ -1326,6 +1326,112 @@ grid-template-columns:1fr;
 END OF FILE
 Radiance Digitals V2
 ================================ */
-```
+
+   /* ==========================================
+CLIENT SUCCESS STORY
+========================================== */
+
+.testimonial-wrapper{
+
+    max-width:900px;
+    margin:60px auto;
+    text-align:center;
+
+}
+
+.testimonial-wrapper h3{
+
+    font-size:36px;
+    margin:25px 0 15px;
+
+}
+
+.testimonial-text{
+
+    color:#94a3b8;
+    font-size:18px;
+    line-height:1.8;
+    max-width:700px;
+    margin:0 auto 40px;
+
+}
+
+.testimonial-video{
+
+    width:100%;
+    max-width:360px;
+    border-radius:20px;
+    border:1px solid #24324d;
+    display:block;
+    margin:0 auto;
+    background:#000;
+    box-shadow:0 20px 60px rgba(0,0,0,.35);
+    transition:.3s;
+
+}
+
+.testimonial-video:hover{
+
+    transform:translateY(-6px);
+    border-color:#2563eb;
+
+}
+
+.trust-grid{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+    margin-top:70px;
+
+}
+
+.trust-card{
+
+    background:#111c2f;
+    border:1px solid #24324d;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+    transition:.3s;
+
+}
+
+.trust-card:hover{
+
+    transform:translateY(-6px);
+    border-color:#2563eb;
+
+}
+
+.trust-icon{
+
+    font-size:42px;
+    margin-bottom:18px;
+
+}
+
+.trust-card h3{
+
+    margin-bottom:12px;
+
+}
+
+.trust-card p{
+
+    color:#94a3b8;
+    line-height:1.7;
+
+}
+
+@media(max-width:768px){
+
+    .trust-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
 
 
