@@ -1290,11 +1290,13 @@ grid-template-columns:1fr;
 
     width:100%;
 
-    max-width:420px;
+    max-width:360px;
+
+    max-height:640px;
 
     display:block;
 
-    margin:0 auto 30px;
+    margin:0 auto 20px;
 
     border-radius:18px;
 
@@ -1302,7 +1304,11 @@ grid-template-columns:1fr;
 
     background:#000;
 
+    object-fit:contain;
+
     transition:.3s;
+
+
 
 }
 
