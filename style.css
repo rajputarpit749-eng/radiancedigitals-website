@@ -1356,24 +1356,7 @@ CLIENT SUCCESS STORY
 
 }
 
-.testimonial-video{
 
-    width:100%;
-    max-width:360px;
-    border-radius:20px;
-    border:1px solid #24324d;
-    display:block;
-    margin:0 auto;
-    background:#000;
-    box-shadow:0 20px 60px rgba(0,0,0,.35);
-    transition:.3s;
-
-}
-
-.testimonial-video:hover{
-
-    transform:translateY(-6px);
-    border-color:#2563eb;
 
 }
 
