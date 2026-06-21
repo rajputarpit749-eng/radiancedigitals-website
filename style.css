@@ -474,7 +474,7 @@ color:var(--gray);
 
 display:grid;
 
-grid-template-columns:1.25fr .75fr;
+grid-template-columns:420px 1fr;
 
 gap:40px;
 
