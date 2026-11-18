@@ -22,7 +22,7 @@ h1,h2,h3{line-height:1.12;letter-spacing:-.02em;color:var(--text)}
 .hero{max-width:1300px;margin:auto;padding:96px 8%;display:grid;grid-template-columns:1.15fr .85fr;gap:70px;align-items:center}
 .hero-tag,.eyebrow{display:inline-block;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--gold)}
 .hero-tag{margin-bottom:22px}
-.hero h1{font-size:clamp(36px,4.8vw,60px);font-weight:800;margin-bottom:24px;line-height:1.08}
+.hero h1{font-size:clamp(28px,3.6vw,50px);font-weight:800;margin-bottom:24px;line-height:1.08}
 .hero h1 span{display:block}
 .gold{background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero p{font-size:19px;color:var(--gray);margin-bottom:34px;max-width:56ch}
@@ -65,6 +65,7 @@ h1,h2,h3{line-height:1.12;letter-spacing:-.02em;color:var(--text)}
 .contact p{color:var(--gray);margin-bottom:30px}
 .contact p a{color:var(--gold);text-decoration:underline}
 footer{text-align:center;padding:28px 8%;color:var(--gray);font-size:14px;background:#000;border-top:1px solid var(--border)}
+@media(min-width:641px){.hero h1 span{white-space:nowrap}}
 @media(max-width:980px){.hero{grid-template-columns:1fr;padding:64px 6%;gap:44px}.grid4,.steps{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.nav{padding:12px 5%}.nav nav a:not(.btn-nav){display:none}.section{padding:64px 6%}.grid4,.steps,.hero-checks{grid-template-columns:1fr}.hero-buttons a{width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
